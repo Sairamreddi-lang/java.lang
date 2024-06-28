@@ -1,0 +1,12 @@
+public class findingmisssing {
+    public static void main(String[] args) {
+        int a[] = {1,2,3,4,5,7,8,9,10};
+        int n = 10;
+        int sum =n*(n+1)/2;
+        int sum2=0;
+        for(int i=0;i<a.length;i++){
+            sum2= sum2+a[i];
+        }
+        System.out.println("Missing number is : "+(sum-sum2));
+    }
+}
